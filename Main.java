@@ -18,7 +18,7 @@ public class Main {
         DiscordRichPresence presence = new DiscordRichPresence();
         presence.startTimestamp = System.currentTimeMillis() / 1000; //shows timestamp
         System.out.println("started."); //just to debug: can be disabled since its not really viewed
-        //but the user 
+        //by the user 
         
         // I hope thats clear
         presence.details = "<details text here>";
